@@ -1,0 +1,25 @@
+body {
+  background-color: #FFF4DE;
+  font-family: sans-serif;
+  margin-left: 20%;
+ margin-right: 20%; 
+
+}
+h1{
+  color: green;
+  font-family: fantasy;
+  font-size: 30px;
+}
+p{
+  color: #925915;
+}
+h2,h3{
+  color: #BB341E;
+  font-family: cursive;
+}
+span{
+  color: green;
+}
+#special{
+  color: #BB341E;
+}
