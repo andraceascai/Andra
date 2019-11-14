@@ -17,9 +17,20 @@ h2,h3{
   color: #BB341E;
   font-family: cursive;
 }
+.tea {
+  color: green;
+  font-family: fantasy;
+}
+.coffee {
+  color: rgb(189, 111, 23);
+}
 span{
   color: green;
 }
 #special{
   color: #BB341E;
+
+  
+    color: green;
+  }
 }
