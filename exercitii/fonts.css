@@ -1,0 +1,62 @@
+#p1{
+      font-weight: normal;
+      font-family: 'Pacifico', cursive;
+      text-decoration: underline;
+      text-decoration-color:orange;
+    text-decoration-line: underline;
+    font-size: 1.2em;
+    color: ivory;
+    text-align: center;
+    /*border-style: outset;
+    border-width: 4px 10px;
+    border-color: rgb(64, 64, 223);*/
+    border: 7px outset rgb(64, 64, 223);
+    padding: 5px 10 20px;
+    margin: auto;
+    background-color: ghostwhite;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+    width: 70%;
+    background-image: url(bule.jpeg);
+    background-size: cover;
+}
+
+#p2 {
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: coral;
+    line-height: 3em;
+    text-align: center ;
+    border-style: dashed;
+    padding: 10px;
+    border-width: 4px 10px;
+    background-color: lemonchiffon;
+    border-color: salmon;
+    border-radius: 1em;
+    width: 55%;
+    margin: auto;
+}
+
+body{
+   background-blend-mode: multiply;
+   background-color: cornsilk;
+   background-image: url(orange.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-sizing: border-box;  
+}
+
+#p1 span{
+    color: lightblue;
+}
+
+#p2 span{
+    color: orangered;
+}
+ div div {
+     background-color:orangered;
+     border-radius: 1em;
+     border: 2px dashed yellow;
+ }
