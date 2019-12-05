@@ -64,3 +64,16 @@ a:hover{
     background-color: red;
   
 }
+
+.trans2{
+    background-color: blueviolet;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    padding: 30px;
+    transform: rotate(360deg);
+    transform-origin: top left;
+    transition: 2s;
+    /* transition-delay: 1s; */
+    
+}
