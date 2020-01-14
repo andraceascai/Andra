@@ -85,11 +85,11 @@ body {
     height: 5em;
     width: 0.5em;
     top: 13.7em;
-    left: 12.70em;
+    left: 12.50em;
  }
 
  #right_leg {
-    transform: rotate(-30deg);
+    transform: rotate(-24deg);
     height: 5em;
     width: 0.5em;
     top: 13.5em;
@@ -98,6 +98,14 @@ body {
 
  .human {
      visibility: hidden;
+ }
+
+ #letters {
+     font-size: 2em;
+ }
+
+ #word {
+     font-size: 4em;
  }
 
  
