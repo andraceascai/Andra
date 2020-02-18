@@ -1,0 +1,36 @@
+div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 20%;
+    left: 20%;
+    background-color: darkorange;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 50%;
+}
+div:hover {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: backwards;
+}
+div:hover {
+    animation-play-state: paused;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+        left: 0%;  
+        top: 20%; 
+    }
+    50% {
+        top: 50%;
+    }
+    to {
+        transform: rotate(360deg);
+        left: 100%;
+    }
+}

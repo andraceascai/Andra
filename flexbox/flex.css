@@ -1,0 +1,18 @@
+nav{
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: space-around;
+    height: 1.5em;
+}
+
+div:first-child{
+    background-color: gold;
+}
+
+div:nth-child(2){
+    background-color: goldenrod;
+}
+
+div:last-child{
+    background-color: orange;
+}
