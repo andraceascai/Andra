@@ -1,0 +1,17 @@
+.tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+input{
+    margin: 1em 0;
+}
+
+input[type="submit"]{
+    background-color: orange;
+}
