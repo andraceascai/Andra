@@ -1,0 +1,19 @@
+@import 'var';
+
+$color: orange;
+
+nav{
+    ul{
+        background-color: rgb(172, 109, 109);
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                color: $secondary_color;
+                padding: $default_padding * 2;
+            }
+        }
+    }
+}
+
+
